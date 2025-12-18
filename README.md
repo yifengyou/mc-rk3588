@@ -5,6 +5,17 @@
 * 带mstata接口、4G接口、5G接口、HDMI、6个USB
 * 属于研发板子，部分带有飞线
 * 内存8G，emmc 64G
+* dtb已提取，参看仓库official目录下的文件
+
+```text
+{
+	compatible = "rockchip,rk3588-mc-ba1201\0rockchip,rk3588";
+	interrupt-parent = <0x01>;
+	#address-cells = <0x02>;
+	#size-cells = <0x02>;
+	model = "Rockchip RK3588 MC BA1201 Board";
+	...
+```
 
 
 ![](./images/1884427031900.png)
@@ -28,3 +39,4 @@
 ![](./images/2070318251799.jpg)
 
 
+---
